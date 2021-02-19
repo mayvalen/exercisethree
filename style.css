@@ -1,0 +1,52 @@
+
+/* REMEMBER TO PRACTICE UPLOADING TYPEFACE */
+
+body {
+	background-color: #EFE9DE;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+.center {
+	text-align: center;
+	padding-top: 5px;
+}
+.videocenter {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.link {
+	padding-top: 20px;
+}
+.recordplayer {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+.audio{
+display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+ a:link {
+  color: #6495ED;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: underline;
+}
